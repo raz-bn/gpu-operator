@@ -308,7 +308,7 @@ func getDcgmExporter() string {
 
 func getPodExporter() string {
 	podExporter := os.Getenv("POD_EXPORTER")
-	if dcgmExporter == "" {
+	if podExporter == "" {
 		log.Info(fmt.Sprintf("ERROR: Could not find environment variable POD_EXPORTER"))
 		os.Exit(1)
 	}
