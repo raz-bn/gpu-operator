@@ -31,7 +31,7 @@ platform:
 operator:
   repository: razbne
   image: gpuoperator
-  tag: 2
+  tag: 3
 # If not set, the tag defaults to Chart.AppVersion
 # tag: "foo"
 
