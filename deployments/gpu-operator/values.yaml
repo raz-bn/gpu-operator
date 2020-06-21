@@ -62,7 +62,7 @@ operator:
 driver:
   repository: razbne
   image: nvidia-driver-w
-  version: "8"
+  version: 8
 
 toolkit:
   repository: nvidia
@@ -77,7 +77,7 @@ devicePlugin:
 dcgmExporter:
   repository: nvidia
   image: dcgm-exporter
-  version: 1.7.2-2.0.0-rc.5-ubuntu18.04
+  version: 1.4.6
 
 podExporter:
   repository: razbne
