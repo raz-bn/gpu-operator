@@ -59,9 +59,9 @@ operator:
                 values: [""]
 
 driver:
-  repository: nvidia
-  image: driver
-  version: "440.64.00"
+  repository: razbne
+  image: nvidia-driver-w
+  version: "8"
 
 toolkit:
   repository: nvidia
@@ -77,3 +77,8 @@ dcgmExporter:
   repository: nvidia
   image: dcgm-exporter
   version: 1.7.2-2.0.0-rc.5-ubuntu18.04
+
+podExporter:
+  repository: razbne
+  image: exporter
+  version: latest
