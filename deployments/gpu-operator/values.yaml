@@ -31,6 +31,7 @@ platform:
 operator:
   repository: razbne
   image: gpuoperator
+  tag: latest
 # If not set, the tag defaults to Chart.AppVersion
 # tag: "foo"
 
