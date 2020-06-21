@@ -29,8 +29,8 @@ platform:
   openshift: false
 
 operator:
-  repository: nvidia
-  image: gpu-operator
+  repository: razbne
+  image: gpuoperator
 # If not set, the tag defaults to Chart.AppVersion
 # tag: "foo"
 
