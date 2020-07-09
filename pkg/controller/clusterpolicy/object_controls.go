@@ -367,7 +367,6 @@ func preProcessDaemonSet(obj *appsv1.DaemonSet, n ClusterPolicyController) {
 		}
 		obj.Spec.Template.Spec.Containers[0].Image = getPodExporter()
 		obj.Spec.Template.Spec.Containers[1].Image = getDcgmExporter()
-		
 	}
 }
 
